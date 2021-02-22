@@ -1,5 +1,39 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tweeter | Home</title>
 
+    <style>
+        .navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+    </style>
+
+    <html>
+
+    <a
+            href="/easteregg" target="_blank"><i class="fa fa-user-secret"></i></a>
+    <div>
+
+        <div class="navigation"></div>
+        <div class="left">
+            <h1 style="font-size: 60px;">Tweeter</h1>
+        </div>
+
+        <div class="right">
+            <h5>Aditi Akella, Sophie Bulkin, Grace Le, Luke Manning</h5>
+        </div>
+    </div>
+    </html>
+</head>
+
+<body>
+<!DOCTYPE html>
+<html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -60,22 +94,7 @@
 
             }
         </style>
-    <!-- Default tab Name -->
-    {% block title %}
-    <title>Nighthawk Coding Society</title>
-    {% endblock %}
-
-    <!-- STYLE Block, override for page specific style  -->
-    {% block style %}
-    {% endblock %}
-
-    <!-- SCRIPT Block, override for page specific script  -->
-    {% block script %}
-    {% endblock %}
 </head>
-
-
-
 <body>
 <style>
 img {
@@ -85,8 +104,6 @@ img {
 }
 
 </style>
-
-<!--Navbar-->
 <div id="main_menu">
     <div class="logo_area">
         <a href="/easteregg" target="_blank"><img src="../static/mainlogo.png" alt=""   ></a>
@@ -126,10 +143,6 @@ img {
     </div>
 </div>
 
-<!-- CONTENT Block, utilize this block for page specific content  -->
-{% block content %}
-{% endblock %}
-
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <script src="jquery.slicknav.min.js"></script>
@@ -138,6 +151,6 @@ img {
             $('#menu').slicknav();
         });
     </script>
-
-
+</body>
 </html>
+

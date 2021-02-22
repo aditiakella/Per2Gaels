@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+{% set username = username %}
+{% set lang = lang %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Twitter Page</title>
+</head>
+<body>
+<h1>Twitter Search API</h1>
+<p class="setup">{{lang}}</p>
+<p class="punchline">{{username}}</p>
+<form method="POST" ID="myForm" action={{url_for('.joke')}} >
+    <input type="submit" value="New Joke">
+</form>
+</body>
+</html>
