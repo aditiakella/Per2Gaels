@@ -1,8 +1,11 @@
 from app import app
 import dataaboutus
+import requests
 from flask import render_template, request, redirect, url_for
 from models.crud import model_create, model_delete, model_query_all, model_query_emails, \
     model_query_phones
+
+
 # connects default URL to a function
 @app.route('/database/')
 def databases():
@@ -56,9 +59,6 @@ def home():
 def index():
     return render_template("base.html")
 
-@app.route('/feedback/')
-def feedback():
-    return render_template("Feedback.html")
 
 @app.route('/aboutus/')
 def about():
@@ -98,7 +98,3 @@ def joke():
     }
     response = requests.request("GET", url, headers=headers, params=querystring)
     return render_template('joke.html')
-
-@app.route('/Responses/')
-def Responses():
-    return render_template("Responses.html")
