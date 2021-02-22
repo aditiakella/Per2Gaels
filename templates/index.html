@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<!-- EXTEND (base.html), homesite/base.html is template for all rendered pages in the project -->
+<!-- EXTEND (base.html), base.html is template for all rendered pages in the project -->
 {% extends "base.html" %}
 
 <!-- STYLE (in <head>), style enhancements for page -->
@@ -75,22 +75,7 @@
 {% block content %}
 
 <!-- Links to code for Front End and Backend for this lesson;  Also, link to Login example  -->
-<div class="jumbotron jumbotron-fluid" style="height: 50%; ">
-    <div class="row justify-content-center">
-        <div class="col-10" style="text-align: center;">
-            <h1>Hello to Databases and Python</h1>
-            <table id="links">
-                <tr>
-                    <td><a href=#FE-HTML>HTML Code</a></td>
-                    <td><a href=#BE-VIEW>View Code</a></td>
-                    <td><a href=#BE-MODELDEFINE>Model Define</a></td>
-                    <td><a href=#BE-MODELCRUD>Model CRUD</a></td>
-                    <td><a href={{url_for('.login')}}>Authorise User</a></td>
-                </tr>
-            </table>
-        </div>
-    </div>
-</div>
+
 <div class="jumbotron jumbotron-fluid" style="height: 50%; ">
 
     <div class="row justify-content-center">
@@ -202,30 +187,5 @@
     </div>
 </div>
 
-<!-- Display CRUD code to support Tech Talks -->
-
-<!-- Front End HTML, shows this file -->
-<div align="center" >
-    <h1 id="FE-HTML">Front End HTML Code</h1>
-    <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fnighthawkcoders%2Fflask-idea-homesite%2Fblob%2Fmaster%2Fviews%2Fpythondb%2Ftemplates%2Fpythondb%2Findex.html&style=github&showBorder=on&showLineNumbers=on&showFileMeta=on"></script>
-</div>
-
-<!-- Back end View and Control code -->
-<div align="center" >
-    <h1 id="BE-VIEW">Back End View Code</h1>
-    <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fnighthawkcoders%2Fflask-idea-homesite%2Fblob%2Fmaster%2Fviews%2Fpythondb%2Fview.py&style=github&showBorder=on&showLineNumbers=on&showFileMeta=on"></script>
-</div>
-
-<!-- Back end SQL data definition code (SQLalchemy) -->
-<div align="center" >
-    <h1 id="BE-MODELDEFINE">Back End Model Definition Code</h1>
-    <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fnighthawkcoders%2Fflask-idea-homesite%2Fblob%2Fmaster%2Fmodels%2F__init__.py&style=github&showBorder=on&showLineNumbers=on&showFileMeta=on"></script>
-</div>
-
-<!-- Back end SQL CRUD supporting code -->
-<div align="center" >
-    <h1 id="BE-MODELCRUD">Back End Model CRUD Code</h1>
-    <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fnighthawkcoders%2Fflask-idea-homesite%2Fblob%2Fmaster%2Fmodels%2Fcrud.py&style=github&showBorder=on&showLineNumbers=on&showFileMeta=on"></script>
-</div>
 
 {% endblock %}

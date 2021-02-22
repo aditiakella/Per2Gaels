@@ -1,96 +1,65 @@
 <!DOCTYPE html>
 
 <html lang="en">
-
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <link rel='stylesheet' href="/static/styles/base.css">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.js" ></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <link rel="shortcut icon" href="/static/assets/finalncslogo.png"
-          type="image/x-icon">
-    <link rel="icon" href="/static/assets/finalncslogo.png"
-          type="image/x-icon">
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176812433-1"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-176812433-1');
-    </script>
-
-    <!-- Common CSS used for this Project -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mobile Menu</title>
+    <link rel="stylesheet" href="slicknav.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400" rel="stylesheet">
     <style>
+      body{background: url(../static/bg.jpg);font-family: 'Oswald', sans-serif;font-size: 15px;font-weight: 400; line-height: 1.5em;}
+        .inner_main_menu {margin: 0 auto; width: 1170px;}
+        .inner_main_menu ul{margin: 0; padding: 80px 0 0; list-style: none;text-align: right;}
+        .inner_main_menu ul li{float: none; display: inline-block;position: relative}
+        .inner_main_menu ul li:nth-child(1){float: left;}
+        .inner_main_menu ul li:nth-child(2){float: left;}
+        .inner_main_menu ul li:nth-child(3){float: left;}
+        .inner_main_menu ul li a{color: #262626; font-size: 20px; text-transform: uppercase;text-decoration: none; display: block;padding: 10px 20px;}
+        .inner_main_menu ul li a:hover{color: #6FDA44}
+        .inner_main_menu ul li ul{position: absolute; top: 40px; left: -9999999px; width: 200px;background: #262626; padding: 0;}
+        .inner_main_menu ul li:hover ul{left: 0px;}
+        .inner_main_menu ul li ul li{float: left;width: 100%;text-align: left;}
+        .inner_main_menu ul li ul li a{color: #fff;text-transform: capitalize; font-size: 15px;}
+        .inner_main_menu ul li ul li a:hover{background: #ddd; color: #262626;}
+        .inner_main_menu ul li ul li ul{top: 0; left: -999999px;}
+        .inner_main_menu ul li:hover ul li ul{top: 0; left: -999999px;}
+        .inner_main_menu ul li ul li:hover ul{top: 0; left: 200px;}
+        .inner_main_menu ul li:hover a{color: #6FDA44}
+        .inner_main_menu ul li:hover ul li a{color: #ffffff}
+        .inner_main_menu ul li ul li a:hover{color: #262626}
+        .inner_main_menu ul li ul li:hover a{background: #ddd; color: #262626;}
+        .inner_main_menu ul li ul li:hover ul li a{background: #262626; color: #fff;}
+        .inner_main_menu ul li ul li ul li a:hover{background: #ddd; color: #262626;}
+            .slicknav_menu {
+              background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+              font-size: 16px;
+              padding: 5px;
+              display: none;
+              position: fixed;
+              right: 0;
+              width: 100%;
+              z-index: 99999;
+            }
+            ul.slicknav_nav {
+              background: #262626 none repeat scroll 0 0;
+              left: 0;
+              position: absolute;
+              top: 0;
+              width: 80%;
+            }
+            .slicknav_btn {top: 35px;}
+            #main_menu{width: 100%; position: relative;}
+            .logo_area{width: 300px; height: 300px; position: absolute; left: 50%; top: 0; content: ""; margin-left:-150px; text-align: center; }
+            @media only screen and (min-width: 200px) and (max-width: 767px) {
+                .slicknav_menu{display: block;}
+                .inner_main_menu{display: none;}
+                .logo_area {height: auto;left: 0;margin-left: 0;position: relative;top: 0;width: 130px;}
+                .logo_area img{height: auto;width: 100%;}
 
-        html {
-            scroll-behavior: smooth;
-        }
-
-        :root{
-            --yellow: #f1d483;
-            --green: #9daf9b;
-            --purple: #a59aaf;
-            --lblue: #6084a3;
-            --dblue: #2b425b;
-            --gray: #363d47;
-        }
-
-        .row{
-            margin: auto;
-        }
-
-        body{
-            animation: fadein 2s;
-            -moz-animation: fadein 2s; /* Firefox */
-            -webkit-animation: fadein 2s; /* Safari and Chrome */
-            -o-animation: fadein 2s; /* Opera */
-        }
-
-        @keyframes fadein {
-            from {
-                opacity:0;
             }
-            to {
-                opacity:1;
-            }
-        }
-        @-moz-keyframes fadein { /* Firefox */
-            from {
-                opacity:0;
-            }
-            to {
-                opacity:1;
-            }
-        }
-        @-webkit-keyframes fadein { /* Safari and Chrome */
-            from {
-                opacity:0;
-            }
-            to {
-                opacity:1;
-            }
-        }
-        @-o-keyframes fadein { /* Opera */
-            from {
-                opacity:0;
-            }
-            to {
-                opacity: 1;
-            }
-        }
-
-    </style>
-
+        </style>
     <!-- Default tab Name -->
     {% block title %}
     <title>Nighthawk Coding Society</title>
@@ -103,51 +72,72 @@
     <!-- SCRIPT Block, override for page specific script  -->
     {% block script %}
     {% endblock %}
-
 </head>
 
 
-<body style="font-family: gilroyLIGHT; color: var(--gray);" >
+
+<body>
+<style>
+img {
+  position: absolute;
+  right: -100px;
+  bottom: 50px;
+}
+
+</style>
 
 <!--Navbar-->
-<nav class="navbar navbar-light navbar-1 white">
-
-    <!-- Navbar brand -->
-    <!-- Collapse button -->
-    <div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15"
-                aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation" style="font-size: xx-large; border: 0em;"><span class="navbar-toggler-icon"></span>
-        </button>
-
-        <a class="navbar-brand" href="/" style="font-family: gilroyXB; font-size: xx-large; color: var(--gray);">
-            <img src="/static/assets/finalncslogo.png" width="50" height="50" class="d-inline-block align-center" alt="">
-            Nighthawk Coding Society
-        </a>
+<div id="main_menu">
+    <div class="logo_area">
+        <a href="/easteregg" target="_blank"><img src="../static/mainlogo.png" alt=""   ></a>
     </div>
+    <div class="inner_main_menu">
+        <ul id="menu">
+            <li><a href="/">Home</a></li>
+            <li><a href="/aboutus/">About</a>
+                <ul>
+                    <li><a href="/aboutus/aditi/">Aditi</a></li>
+                    <li><a href="/aboutus/sophie/">Sophie</a></li>
+                    <li><a href="/aboutus/grace/">Grace</a></li>
+                    <li><a href="/aboutus/luke/">Luke</a></li>
+                </ul>
+            </li>
 
-    <!-- Collapsible content -->
-    <div class="collapse navbar-collapse" id="navbarSupportedContent15">
-        <!-- Links -->
-        <div class="navbar-nav" style="font-size: large;">
-            <!-- menus defined in view and activated here -->
-            {% for menu in menus %}
-            {% set title = menu['title'] %}
-            {% set tag = menu['key'] %}
-            {% set url = url_for("landing", selection = tag) %}
-            <a class="nav-link java" href={{url}}>{{title}}</a>
-            {% endfor %}
-        </div>
+            <li><a>Work In Progress</a>
+                <ul>
+                    <li><a href="/login/">Login</a></li>
+                    <li><a href="/database/">Database</a>
+                        <ul>
+                            <li><a href="">Dropdown Sub Menu</a></li>
+                            <li><a href="">Dropdown Sub Menu</a></li>
+                            <li><a href="">Dropdown Sub Menu</a></li>
+                            <li><a href="">Dropdown Sub Menu</a></li>
+                            <li><a href="">Dropdown Sub Menu</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/joke">Joke API</a></li>
+                    <li><a href="">Dropdown Menu</a></li>
+                </ul>
+            </li>
+            <li><a href="/feedback/">Feedback</a></li>
+            <li><a href="/Phylogenetic/">Phylogeny</a></li>
+            <li><a href="https://docs.google.com/document/d/1NFgEh_1AZGfm3fGWLUgGT7Xm9tNoPROnnH0_pO72MzM/edit?usp=sharing">Journal</a></li>
+        </ul>
     </div>
-
-</nav>
+</div>
 
 <!-- CONTENT Block, utilize this block for page specific content  -->
 {% block content %}
 {% endblock %}
 
-<!-- bootstrap recommends these lines at end of body -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="jquery.slicknav.min.js"></script>
+<script type="text/javascript">
+        $(document).ready(function(){
+            $('#menu').slicknav();
+        });
+    </script>
+
 
 </html>
