@@ -1,8 +1,8 @@
 from flask import render_template, request, redirect, url_for
 from sqlalchemy import func
 from pythondb import pythondb_bp
-from models import Users, Emails, PhoneNumbers
-from models.lessons import menus
+from models import db, Users, Emails, PhoneNumbers
+
 
 # connects default URL to a function
 @pythondb_bp.route('/')
@@ -22,7 +22,7 @@ def databases():
             user_dict['phone_numbers'] = pn.phone_number
         # append to records
         records.append(user_dict)
-    return render_template("pythondb/index.html", table=records, menus=menus)
+    return render_template("pythondb/index.html", table=records)
 
 
 # create/add a new record to the table
@@ -46,52 +46,6 @@ def create():
         db.session.commit()
     return redirect(url_for('pythondb_bp.databases'))
 
-
-# CRUD read, which is filtering table based off of ID
-@pythondb_bp.route('/read/', methods=["POST"])
-def read():
-    if request.form:
-        """fetch userid"""
-        userid = request.form.get("ID")
-        """filter users by userid"""
-        user = Users.query.filter_by(UserID=userid).first()
-        user_dict = {'id': user.UserID, 'name': user.username, 'password': user.password}
-        """filter email by userid"""
-        email = Emails.query.filter_by(UserID=userid).first()
-        if email:
-            user_dict['emails'] = email.email_address
-        """filter phone number by userid"""
-        pn = PhoneNumbers.query.filter_by(UserID=userid).first()
-        if pn:
-            user_dict['phone_numbers'] = pn.phone_number
-        """put filtered data into list form"""
-        record = [user_dict]
-    return render_template("pythondb/index.html", table=record, menus=menus)
-
-
-# CRUD update
-@pythondb_bp.route('/update/', methods=["POST"])
-def update():
-    if request.form:
-        """fetch userid"""
-        userid = request.form.get("ID")
-        """update email in table from data in form if it exists, insert if not"""
-        if Emails.query.filter_by(UserID=userid).first() is not None:
-            db.session.query(Emails).filter_by(UserID=userid).update({Emails.email_address: request.form.get("email")})
-        else:
-            email = Emails(email_address=request.form.get("email"), UserID=userid)
-            db.session.add(email)
-        """update phone number in table from data in form"""
-        if PhoneNumbers.query.filter_by(UserID=userid).first() is not None:
-            db.session.query(PhoneNumbers).filter_by(UserID=userid).update(
-                {PhoneNumbers.phone_number: request.form.get("phone_number")})
-        else:
-            phone_number = PhoneNumbers(phone_number=request.form.get("phone_number"), UserID=userid)
-            db.session.add(phone_number)
-
-        """commit changes to database"""
-        db.session.commit()
-    return redirect(url_for('pythondb_bp.databases'))
 
 
 # CRUD delete
@@ -122,7 +76,7 @@ def emails():
         user_dict['id'] = email.UserID
         user_dict['emails'] = email.email_address
         records.append(user_dict)
-    return render_template("pythondb/index.html", table=records, menu=menus)
+    return render_template("pythondb/index.html", table=records)
 
 
 # if phones url, show phones table only
@@ -136,5 +90,5 @@ def phones():
         user_dict['id'] = phone.UserID
         user_dict['phone_numbers'] = phone.phone_number
         records.append(user_dict)
-    return render_template("pythondb/index.html", table=records, menu=menus)
+    return render_template("pythondb/index.html", table=records)
 

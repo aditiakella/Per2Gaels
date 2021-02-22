@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-{% extends "homesite/base.html" %}
+{% extends "base.html" %}
 {% block content %}
     <style>
         table {
@@ -21,7 +21,36 @@
         }
     </style>
 
+<div class="jumbotron jumbotron-fluid" style="height: 50%; ">
 
+    <div class="row justify-content-center">
+        <div class="col-10" style="text-align: center;">
+            <h1>CRUD: Create</h1>
+        </div>
+    </div>
+
+    <div class="row courses-buttons justify-content-center">
+
+        <form method="POST" ID="myForm" action={{url_for('.create')}} >
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Password</th>
+                    <th>Email</th>
+                    <th>Phone Number</th>
+                </tr>
+                <tr>
+                    <th><input type="text" name="username"></th>
+                    <th><input type="text" name="password"></th>
+                    <th><input type="text" name="email"></th>
+                    <th><input type="text" name="phone_number"></th>
+                    <th><input type="submit" value="Add"></th>
+                </tr>
+            </table>
+        </form>
+
+    </div>
+</div>
 
     <div class="jumbotron jumbotron-fluid" style="height: 50%; ">
 
@@ -66,100 +95,7 @@
 
     </div>
 
-    <div class="jumbotron jumbotron-fluid" style="height: 50%; ">
 
-        <div class="row justify-content-center">
-            <div class="col-10" style="text-align: center;">
-                <h1>CRUD: Create</h1>
-            </div>
-        </div>
-
-        <div class="row courses-buttons justify-content-center">
-
-            <form method="POST" ID="myForm" action={{url_for('.create')}} >
-                <table>
-                    <tr>
-                        <th>Name</th>
-                        <th>Password</th>
-                        <th>Email</th>
-                        <th>Phone Number</th>
-                    </tr>
-                    <tr>
-                        <th><input type="text" name="username"></th>
-                        <th><input type="text" name="password"></th>
-                        <th><input type="text" name="email"></th>
-                        <th><input type="text" name="phone_number"></th>
-                        <th><input type="submit" value="Add"></th>
-                    </tr>
-                </table>
-            </form>
-
-        </div>
-    </div>
-
-    <div class="jumbotron jumbotron-fluid" style="height: 50%; ">
-
-        <div class="row justify-content-center">
-            <div class="col-10" style="text-align: center;">
-                <h1>CRUD: Read</h1>
-            </div>
-        </div>
-
-        <div class="row courses-buttons justify-content-center">
-
-            <form method="POST" ID="myForm" action={{url_for('.read')}} >
-                <table id="links">
-                    <tr><td><select name="ID">
-                        <optgroup label="userid">
-                            {%  for row in table: %}
-                                <option label="{{ row['id'] }}">{{ row['id'] }}</option>
-                            {% endfor %}
-                        </optgroup>
-                    </select></td>
-                        <td><input type="submit" value="Filter"></td>
-                    </tr>
-                </table>
-            </form>
-
-        </div>
-    </div>
-
-    <div class="jumbotron jumbotron-fluid" style="height: 50%; ">
-
-        <div class="row justify-content-center">
-            <div class="col-10" style="text-align: center;">
-                <h1>CRUD: Update</h1>
-            </div>
-        </div>
-
-        <div class="row courses-buttons justify-content-center">
-
-            <form method="POST" ID="myForm" action={{url_for('.update')}} >
-                <table id="links">
-                    <tr>
-                        <th>ID</th>
-                        <th>Email</th>
-                        <th>Phone Number</th>
-                    </tr>
-                    <tr>
-                        <td>
-                        <select name="ID">
-                            <optgroup label="userid">
-                                {%  for row in table: %}
-                                    <option label="{{ row['id'] }}">{{ row['id'] }}</option>
-                                {% endfor %}
-                            </optgroup>
-                        </select>
-                        </td>
-                        <th><input type="text" name="email"></th>
-                        <th><input type="text" name="phone_number"></th>
-                        <th><input type="submit" value="Update"></th>
-                    </tr>
-                </table>
-            </form>
-
-        </div>
-    </div>
 
     <div class="jumbotron jumbotron-fluid" style="height: 50%; ">
 
@@ -187,19 +123,5 @@
         </div>
     </div>
 
-    <div align="center" >
-        <h1 id="FE-HTML">Front End HTML Code</h1>
-        <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fnighthawkcoders%2Fflask-idea-homesite%2Fblob%2Fmaster%2Fpythondb%2Ftemplates%2Fpythondb%2Findex.html&style=github&showBorder=on&showLineNumbers=on&showFileMeta=on"></script>
-    </div>
-
-    <div align="center" >
-        <h1 id="BE-VIEW">Back End View Code</h1>
-        <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fnighthawkcoders%2Fflask-idea-homesite%2Fblob%2Fmaster%2Fpythondb%2Fview.py&style=github&showBorder=on&showLineNumbers=on&showFileMeta=on"></script>
-    </div>
-
-    <div align="center" >
-        <h1 id="BE-MODEL">Back End Model Code</h1>
-        <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fnighthawkcoders%2Fflask-idea-homesite%2Fblob%2Fmaster%2Fpythondb%2Fmodel.py&style=github&showBorder=on&showLineNumbers=on&showFileMeta=on"></script>
-    </div>
 
 {% endblock %}
