@@ -98,3 +98,7 @@ def joke():
     }
     response = requests.request("GET", url, headers=headers, params=querystring)
     return render_template('joke.html')
+
+@app.route('/easteregg')
+def Easter():
+    return render_template("easteregg.html")
