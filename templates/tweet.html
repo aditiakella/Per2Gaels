@@ -8,10 +8,9 @@
 </head>
 <body>
 <h1>Twitter Search API</h1>
-<p class="setup">{{lang}}</p>
-<p class="punchline">{{username}}</p>
-<form method="POST" ID="myForm" action={{url_for('.joke')}} >
-    <input type="submit" value="New Joke">
+<p class="response">{{response}}</p>
+<form method="POST" ID="myForm" action={{url_for('.twitter')}} >
+    <input type="submit" value="New Tweet">
 </form>
 </body>
 </html>

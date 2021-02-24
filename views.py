@@ -87,17 +87,17 @@ def luke():
 def Phylogenetic():
     return render_template("Phylogenetic.html")
 
-@app.route('/joke', methods=['GET', 'POST'])
-def joke():
+@app.route('/twitter', methods=['GET'])
+def twitter():
     url = "https://twitter32.p.rapidapi.com/getTweetIdByUrl"
 
-    querystring = {"url":"https://twitter.com/Nike/status/1319639821451554818"}
+    querystring = {"user_id": "415859364"}
     headers = {
-        'x-rapidapi-key': "SIGN-UP-FOR-KEY",
+        'x-rapidapi-key': "0fe3a85372mshec4ebae6a3667a4p169becjsn644301488221",
         'x-rapidapi-host': "twitter32.p.rapidapi.com"
     }
     response = requests.request("GET", url, headers=headers, params=querystring)
-    return render_template('joke.html')
+    return render_template('tweet.html', response=response)
 
 @app.route('/easteregg')
 def Easter():
