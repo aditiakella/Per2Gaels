@@ -91,13 +91,15 @@ def Phylogenetic():
 def twitter():
     url = "https://twitter32.p.rapidapi.com/getTweetIdByUrl"
 
-    querystring = {"user_id": "415859364"}
+    querystring = {"url":"https://twitter.com/Nike/status/1319639821451554818"}
+
     headers = {
-        'x-rapidapi-key': "0fe3a85372mshec4ebae6a3667a4p169becjsn644301488221",
-        'x-rapidapi-host': "twitter32.p.rapidapi.com"
-    }
+    'x-rapidapi-key': "0fe3a85372mshec4ebae6a3667a4p169becjsn644301488221",
+    'x-rapidapi-host': "twitter32.p.rapidapi.com"}
+
     response = requests.request("GET", url, headers=headers, params=querystring)
     return render_template('tweet.html', response=response)
+    print(response.text)
 
 @app.route('/easteregg')
 def Easter():
