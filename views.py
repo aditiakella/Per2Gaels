@@ -102,3 +102,6 @@ def twitter():
 @app.route('/easteregg')
 def Easter():
     return render_template("easteregg.html")
+@app.route('/Responses/')
+def Responses():
+    return render_template("Responses.html")
