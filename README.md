@@ -13,8 +13,6 @@
 * Navbar (Grace):
 * About Pages (Aditi):
 * Audubon Society Twitter API (Luke):
-    * The Twitter API can be accessed through the homepage, where you click the Twitter API button that redirects you to the [Twitter API](Tweeter.gq/twitter)
-    * 
 * Easter Egg (Sophie):
 * In order to run this file, go to the homepage, click the logo in the middle of the screen, and it will redirect you to the Easter Egg
 * Once you have accessed the Easter Egg, you will see that we have embedded the college board requirments for the project
@@ -22,9 +20,14 @@
 * The "I" abilities highlight all of the things that we feel we have learned throughout the course of working on this project
 * After you see the Jinja outline, you will see our group journal, which has also been embedded to demonstrate our completion of the college board requirments
 * At the end, we used an HTML form to create a "feedback" page where you can say which aspects of the college board requirments you (the evaluator) think were not efficiently used
+* Easter Egg ([link](Tweeter.gq/easteregg))
 * Databases Front End (Grace):
 * Database Back End (Aditi):
 * Phylogeny Page (Sophie):
+* In order to access the phylogeny page, go to the home page and on the far right side of the nav bar there is a button that says "phylogeny" if you click it, you will be redirected to that page
+* This page highlights the phylogenetic tree that all of the birds in "bird of the month" will be a part of
+* In order to have this image here, we embedded an image file that we downloaded from the internet
+* Phylogeny ([link](Tweeter.gq/Phylogenetic/))
 
 * Databases:
    * In order to run the database, run our [website](Tweeter.gq). Then hover the cursor over Joke API and right below the drop down menu is Database. Once a user inputs data into the table a new user will appear. Here is the [link to the frontend code](https://github.com/aditiakella/Period2Gaels/blob/main/templates/index.html)
