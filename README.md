@@ -10,15 +10,15 @@
 # Project Overview
 # Project Components
 * Homepage (Grace): 
-      *  Right as you run the website it will take you to our homepage. 
-      *  On our homepage you will see our website logo and title. 
-      *  If you scroll down  on the page you will see that we feature a bird of the month and some more information about that bird
+     *  Right as you run the website it will take you to our homepage. 
+     *  On our homepage you will see our website logo and title. 
+     *  If you scroll down  on the page you will see that we feature a bird of the month and some more information about that bird
 * Navbar (Grace): 
-      *  On each page of our website there is a navigation bar
-      *  Clicking on those links takes you to different parts of our website
-      *  There are drop downs included on the About Us Section
-      *  There is a each href link on each part of the navigation bar
-      *  On our logo if you click on it, that will take you to our logo
+     *  On each page of our website there is a navigation bar
+     *  Clicking on those links takes you to different parts of our website
+     *  There are drop downs included on the About Us Section
+     *  There is a each href link on each part of the navigation bar
+     *  On our logo if you click on it, that will take you to our logo
 * About Pages (Aditi):
 * Audubon Society Twitter API (Luke):
 * Easter Egg (Sophie):
