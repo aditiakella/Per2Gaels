@@ -7,18 +7,17 @@
 * [Project Plan](https://docs.google.com/document/d/1wBFv8xEiTdBYL12SreRxs_ixNCXaxFt93r1jJ1S14m4/edit?usp=sharing)
 * [Website on Raspberry Pi Web Server](http://tweeter.gq/)
 
-## Recommendations from Cowboys Crossover
-* The visuals were really the only thing they needed to work on in the project. 
-* They had a lot of drop downs which is great, but they seemed disorganized to a user and were hard to follow
-## Implementation of Recommendations
-* [Scum Board Item](https://github.com/aditiakella/Period2Gaels/projects/1#card-55128623) for style change
-* [Scrum Board Item](https://github.com/aditiakella/Period2Gaels/projects/1#card-55211292) for navbar organization
-* Sophie changed the font of the Easter egg page and added a matching background to About pages
-* The visuals are now more standardized across each page of our website
-* We also reorganized our dropdown menu so that it was more organized
-* We now have a tab in the navbar that has all of our Work in progress
-
+# Project Overview
 # Project Components
+* Homepage (Grace):
+* Navbar (Grace):
+* About Pages (Aditi):
+* Audubon Society Twitter API (Luke):
+* Easter Egg (Sophie):
+* Databases Front End (Grace):
+* Database Back End (Aditi):
+* Phylogeny Page (Sophie):
+
 * Databases:
    * In order to run the database, run our [website](Tweeter.gq). Then hover the cursor over Joke API and right below the drop down menu is Database. Once a user inputs data into the table a new user will appear. Here is the [link to the frontend code](https://github.com/aditiakella/Period2Gaels/blob/main/templates/index.html)
    * Scroll down to Crud Create
@@ -40,12 +39,6 @@
     * Then we had to create an app route for the easter egg page with [this code](https://github.com/aditiakella/Period2Gaels/blob/8b3e02b436e1071a7ce265eafc1a61b28b5af40c/views.py#L66-L68).
     *Lastly, we had to create our easter egg page with [this code](https://github.com/aditiakella/Period2Gaels/blob/main/templates/easteregg.html)
     *[Scrum Board Item](https://github.com/aditiakella/Period2Gaels/projects/1#card-53523282)
-* Sessions:
-     * Right now we only have the [front end code](https://github.com/aditiakella/Period2Gaels/blob/main/templates/login.html).
-     * We are working on finishing databases before we move on to sessions
-     * [Scrum Board Item](https://github.com/aditiakella/Period2Gaels/projects/1#card-53687565)
-   
-
 
 # Scrum Team Cards
 ### Scrum Master Grading: 19/20 (For all team members)
@@ -75,22 +68,3 @@
 * Sophie Bulkin
 * Grace Le
 * Luke Manning (joined week 6)
-
-## Project Overview
-A bird website called "Tweeter" that has a data base for the different types of birds. We will use web scraping to find the different types of birds that will be divided based on their specie, or order, with sub menus allowing you to pick the specific bird that you want to explore. We will use the bird api as a resource and use more advanced techniques that will be evident at N@M and fufill all of the College Board requirments. We will use Python, HTML, CSS, and Flask to develop our project and deploy our website on a rasberry pi. 
-
-## Project Components 
-* home page 
-* Drop down of order of birds and sub drop down with each type of bird
-* Added HTML files to each dropdown menu
-* About us page
-    * Introduce team membbers
-    * Describes the project in more detail
-* categories on the orders of birds 
-* nav bar
-
-## 5 Hour Challenge
-* finished homepage and organization
-* added about us page
-* added phylogenetic page and images
-* worked on organization and formatting
