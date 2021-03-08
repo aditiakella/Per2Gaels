@@ -9,35 +9,29 @@
 
 # Project Overview
 # Project Components
-* Homepage (Grace):
-* Navbar (Grace):
+* Homepage (Grace): 
+      * Right as you run the website it will take you to our homepage. 
+      * On our homepage you will see our website logo and title. 
+      * If you scroll down  on the page you will see that we feature a bird of the month and some more information about that bird
+* Navbar (Grace): 
+      * On each page of our website there is a navigation bar
+      * Clicking on those links takes you to different parts of our website
+      * There are drop downs included on the About Us Section
+      * There is a each href link on each part of the navigation bar
+      * On our logo if you click on it, that will take you to our logo
 * About Pages (Aditi):
-    * On our [homepage](http://tweeter.gq/), hover over the ["About" tab](http://tweeter.gq/aboutus/) in the navbar. Then click on each person's name to access their profile. For quick access, here is [Aditi's Profile](http://tweeter.gq/aboutus/aditi/), [Sophie's Profile](http://tweeter.gq/aboutus/sophie/), [Grace's Profile](http://tweeter.gq/aboutus/grace/), and [Luke's Profile](http://tweeter.gq/aboutus/luke/). 
-    * Code Review:
-        * [About.html](https://github.com/aditiakella/Per2Gaels/blob/master/templates/About.html) is the Jinja template used for all about pages. It includes a [navbar](https://github.com/aditiakella/Per2Gaels/blob/f99c0e48bf4322fc750a5f29d46fa52291a568f5/templates/About.html#L92-L114), the words ["About Us:"](https://github.com/aditiakella/Per2Gaels/blob/f99c0e48bf4322fc750a5f29d46fa52291a568f5/templates/About.html#L132-L134), and a [content block](https://github.com/aditiakella/Per2Gaels/blob/f99c0e48bf4322fc750a5f29d46fa52291a568f5/templates/About.html#L138-L140). 
 * Audubon Society Twitter API (Luke):
-     * To access the Twitter API, click on the API link on the homepage which will rediect you to the [Twitter API](http://tweeter.gq/twitter)
-     * [Views.py](https://github.com/aditiakella/Per2Gaels/blob/f955d7c5bd540656af979728122964ec8aeec613/views.py#L90-L107)
-         * The API keys and link are printed here in order to gain access to the API.
-         * Under the keys, json.get is used to pull the data using the variables given when the API endpoint is tested on the Rapid API website.
-         * Then it takes the respone [200] and prints it.
-     * [Tweet.html](https://github.com/aditiakella/Per2Gaels/blob/f955d7c5bd540656af979728122964ec8aeec613/templates/tweet.html) 
-         * The html code used in order to display the data the API pulls. It takes the variables from the app route and prints them onto the website.
 * Easter Egg (Sophie):
-* In order to run this file, go to the homepage, click the logo in the middle of the screen, and it will redirect you to the Easter Egg
-* Once you have accessed the Easter Egg, you will see that we have embedded the college board requirments for the project
-* After the initial embedding of the College Board requirments, we used a Jinja template to organize everyones "I" abilities
-* The "I" abilities highlight all of the things that we feel we have learned throughout the course of working on this project
-* After you see the Jinja outline, you will see our group journal, which has also been embedded to demonstrate our completion of the college board requirments
-* At the end, we used an HTML form to create a "feedback" page where you can say which aspects of the college board requirments you (the evaluator) think were not efficiently used
-* Easter Egg ([link](Tweeter.gq/easteregg))
+      *  In order to run this file, go to the homepage, click the logo in the middle of the screen, and it will redirect you to the Easter Egg
+      *  Once you have accessed the Easter Egg, you will see that we have embedded the college board requirments for the project
+      *  After the initial embedding of the College Board requirments, we used a Jinja template to organize everyones "I" abilities
+      *  The "I" abilities highlight all of the things that we feel we have learned throughout the course of working on this project
+      *  After you see the Jinja outline, you will see our group journal, which has also been embedded to demonstrate our completion of the college board requirments
+      * At the end, we used an HTML form to create a "feedback" page where you can say which aspects of the college board requirments you (the evaluator) think were not efficiently used
 * Databases Front End (Grace):
+      *   
 * Database Back End (Aditi):
 * Phylogeny Page (Sophie):
-* In order to access the phylogeny page, go to the home page and on the far right side of the nav bar there is a button that says "phylogeny" if you click it, you will be redirected to that page
-* This page highlights the phylogenetic tree that all of the birds in "bird of the month" will be a part of
-* In order to have this image here, we embedded an image file that we downloaded from the internet
-* Phylogeny ([link](http://127.0.0.1:5002/Phylogenetic/))
 
 * Databases:
    * In order to run the database, run our [website](Tweeter.gq). Then hover the cursor over Joke API and right below the drop down menu is Database. Once a user inputs data into the table a new user will appear. Here is the [link to the frontend code](https://github.com/aditiakella/Period2Gaels/blob/main/templates/index.html)
