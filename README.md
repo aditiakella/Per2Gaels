@@ -20,6 +20,15 @@
      *  There is a each href link on each part of the navigation bar
      *  On our logo if you click on it, that will take you to our logo
 * About Pages (Aditi):
+       * On our [homepage](http://tweeter.gq/), hover over the ["About" tab](http://tweeter.gq/aboutus/) in the navbar. Then click on each person's name to access their profile. For quick access, here is [Aditi's Profile](http://tweeter.gq/aboutus/aditi/), [Sophie's Profile](http://tweeter.gq/aboutus/sophie/), [Grace's Profile](http://tweeter.gq/aboutus/grace/), and [Luke's Profile](http://tweeter.gq/aboutus/luke/). 
+       * Code Review:
+           * [About.html](https://github.com/aditiakella/Per2Gaels/blob/master/templates/About.html) is the Jinja template used for all about pages. It includes a [navbar](https://github.com/aditiakella/Per2Gaels/blob/f99c0e48bf4322fc750a5f29d46fa52291a568f5/templates/About.html#L92-L114), the words ["About Us:"](https://github.com/aditiakella/Per2Gaels/blob/f99c0e48bf4322fc750a5f29d46fa52291a568f5/templates/About.html#L132-L134), and a [content block](https://github.com/aditiakella/Per2Gaels/blob/f99c0e48bf4322fc750a5f29d46fa52291a568f5/templates/About.html#L138-L140). 
+           * All of the information about team members can be found on [dataaboutus.py](https://github.com/aditiakella/Per2Gaels/blob/master/dataaboutus.py). 
+           * Each person's information is turned into a dictionary. Here is an [example](https://github.com/aditiakella/Per2Gaels/blob/f955d7c5bd540656af979728122964ec8aeec613/dataaboutus.py#L6).
+           * Then the entire team's information is turned into a [list](https://github.com/aditiakella/Per2Gaels/blob/f955d7c5bd540656af979728122964ec8aeec613/dataaboutus.py#L46).
+           * This list of data is passed through the back end, [views.py](https://github.com/aditiakella/Per2Gaels/blob/f955d7c5bd540656af979728122964ec8aeec613/views.py#L67).
+           * Then, Jinja variables are used on the about pages to fill in everybody's information in the content block of About.html. Here is an [example](https://github.com/aditiakella/Per2Gaels/blob/f955d7c5bd540656af979728122964ec8aeec613/templates/aditi.html#L10-L16) of the Jinja variables in use. 
+       * [Scrum Board Card](https://github.com/aditiakella/Per2Gaels/projects/1#card-56444144)
 * Audubon Society Twitter API (Luke):
 * Easter Egg (Sophie):
       *  In order to run this file, go to the homepage, click the logo in the middle of the screen, and it will redirect you to the Easter Egg
