@@ -27,7 +27,7 @@
 * In order to access the phylogeny page, go to the home page and on the far right side of the nav bar there is a button that says "phylogeny" if you click it, you will be redirected to that page
 * This page highlights the phylogenetic tree that all of the birds in "bird of the month" will be a part of
 * In order to have this image here, we embedded an image file that we downloaded from the internet
-* Phylogeny ([link](Tweeter.gq/Phylogenetic/))
+* Phylogeny ([link](http://127.0.0.1:5002/Phylogenetic/))
 
 * Databases:
    * In order to run the database, run our [website](Tweeter.gq). Then hover the cursor over Joke API and right below the drop down menu is Database. Once a user inputs data into the table a new user will appear. Here is the [link to the frontend code](https://github.com/aditiakella/Period2Gaels/blob/main/templates/index.html)
