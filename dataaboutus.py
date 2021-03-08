@@ -27,7 +27,7 @@ def graces_info():
 def lukes_info():
     greeting = "Hi!"
     name = "Luke Manning"
-    grade = "th grade"
+    grade = "Hi my name is Luke Manning and I am a senior at Del Norte high school. This is my first time in a computer science class and I took it as an elective. Throughout this class I have learned different types of code such as html and jinja."
     about = "About: Fill in"
     contributions = "Contributions: Fill in"
     info = {"greeting": greeting, "name": name, "grade": grade, "about": about, "contributions": contributions}
@@ -37,8 +37,8 @@ def lukes_info():
     greeting= "Hello!"
     name = "Luke Manning"
     grade = "12th grade"
-    about = "Hi my name is Luke Manning and I am a senior at Del Norte"
-    contributions = "Contributions: "
+    about = "Hi my name is Luke Manning and I am a senior at Del Norte. This is my first time in a computer science class and I took it as an elective. Throughout this class I have learned different types of code such as html and jinja."
+    contributions = "Contributions: I worked on the API page where data is pulled from a twitter account called Audubon Society. It gives data about the account and shows a few recent posts."
     info = {"greeting": greeting, "name": name, "grade": grade, "about": about, "contributions": contributions}
     return info
 
