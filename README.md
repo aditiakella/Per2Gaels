@@ -16,6 +16,13 @@
     * Code Review:
         * [About.html](https://github.com/aditiakella/Per2Gaels/blob/master/templates/About.html) is the Jinja template used for all about pages. It includes a [navbar](https://github.com/aditiakella/Per2Gaels/blob/f99c0e48bf4322fc750a5f29d46fa52291a568f5/templates/About.html#L92-L114), the words ["About Us:"](https://github.com/aditiakella/Per2Gaels/blob/f99c0e48bf4322fc750a5f29d46fa52291a568f5/templates/About.html#L132-L134), and a [content block](https://github.com/aditiakella/Per2Gaels/blob/f99c0e48bf4322fc750a5f29d46fa52291a568f5/templates/About.html#L138-L140). 
 * Audubon Society Twitter API (Luke):
+     * To access the Twitter API, click on the API link on the homepage which will rediect you to the [Twitter API](http://tweeter.gq/twitter)
+     * [Views.py](https://github.com/aditiakella/Per2Gaels/blob/f955d7c5bd540656af979728122964ec8aeec613/views.py#L90-L107)
+         * The API keys and link are printed here in order to gain access to the API.
+         * Under the keys, json.get is used to pull the data using the variables given when the API endpoint is tested on the Rapid API website.
+         * Then it takes the respone [200] and prints it.
+     * [Tweet.html](https://github.com/aditiakella/Per2Gaels/blob/f955d7c5bd540656af979728122964ec8aeec613/templates/tweet.html) 
+         * The html code used in order to display the data the API pulls. It takes the variables from the app route and prints them onto the website.
 * Easter Egg (Sophie):
 * In order to run this file, go to the homepage, click the logo in the middle of the screen, and it will redirect you to the Easter Egg
 * Once you have accessed the Easter Egg, you will see that we have embedded the college board requirments for the project
