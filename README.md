@@ -13,6 +13,8 @@
 * Navbar (Grace):
 * About Pages (Aditi):
 * Audubon Society Twitter API (Luke):
+    * The Twitter API can be accessed through the homepage, where you click the Twitter API button that redirects you to the [Twitter API](Tweeter.gq/twitter)
+    * 
 * Easter Egg (Sophie):
 * In order to run this file, go to the homepage, click the logo in the middle of the screen, and it will redirect you to the Easter Egg
 * Once you have accessed the Easter Egg, you will see that we have embedded the college board requirments for the project
@@ -20,7 +22,6 @@
 * The "I" abilities highlight all of the things that we feel we have learned throughout the course of working on this project
 * After you see the Jinja outline, you will see our group journal, which has also been embedded to demonstrate our completion of the college board requirments
 * At the end, we used an HTML form to create a "feedback" page where you can say which aspects of the college board requirments you (the evaluator) think were not efficiently used
-* Easter Egg ([link](Tweeter.gq/easteregg))
 * Databases Front End (Grace):
 * Database Back End (Aditi):
 * Phylogeny Page (Sophie):
