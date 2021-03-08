@@ -22,13 +22,20 @@
      *  On our logo if you click on it, that will take you to our logo
 * About Pages (Aditi):
 * Audubon Society Twitter API (Luke):
+     * To access the Twitter API, click on the API link on the homepage which will rediect you to the [Twitter API](http://tweeter.gq/twitter)
+     * [Views.py](https://github.com/aditiakella/Per2Gaels/blob/f955d7c5bd540656af979728122964ec8aeec613/views.py#L90-L107)
+         * The API keys and link are printed here in order to gain access to the API.
+         * Under the keys, json.get is used to pull the data using the variables given when the API endpoint is tested on the Rapid API website.
+         * Then it takes the respone [200] and prints it.
+     * [Tweet.html](https://github.com/aditiakella/Per2Gaels/blob/f955d7c5bd540656af979728122964ec8aeec613/templates/tweet.html) 
+         * The html code used in order to display the data the API pulls. It takes the variables from the app route and prints them onto the website.
 * Easter Egg (Sophie):
-      *  In order to run this file, go to the homepage, click the logo in the middle of the screen, and it will redirect you to the Easter Egg
-      *  Once you have accessed the Easter Egg, you will see that we have embedded the college board requirments for the project
-      *  After the initial embedding of the College Board requirments, we used a Jinja template to organize everyones "I" abilities
-      *  The "I" abilities highlight all of the things that we feel we have learned throughout the course of working on this project
-      *  After you see the Jinja outline, you will see our group journal, which has also been embedded to demonstrate our completion of the college board requirments
-      * At the end, we used an HTML form to create a "feedback" page where you can say which aspects of the college board requirments you (the evaluator) think were not efficiently used
+    * In order to run this file, go to the homepage, click the logo in the middle of the screen, and it will redirect you to the Easter Egg
+    * Once you have accessed the Easter Egg, you will see that we have embedded the college board requirments for the project
+    * After the initial embedding of the College Board requirments, we used a Jinja template to organize everyones "I" abilities
+    * The "I" abilities highlight all of the things that we feel we have learned throughout the course of working on this project
+    * After you see the Jinja outline, you will see our group journal, which has also been embedded to demonstrate our completion of the college board requirments
+    * At the end, we used an HTML form to create a "feedback" page where you can say which aspects of the college board requirments you (the evaluator) think were not efficiently used
 * Databases Front End (Grace):
      * On the navigation bar if you click on contact it will take you to an contact form
      * The front end is what the user sees
@@ -38,7 +45,10 @@
      * Here is a link to the front end of the code [link to the frontend code](https://github.com/aditiakella/Period2Gaels/blob/main/templates/index.html)
 * Database Back End (Aditi):
 * Phylogeny Page (Sophie):
-
+    * In order to access the phylogeny page, go to the nav bar in home and click the button on the far right side that says phylogeny
+    * This is a phylogenetic tree that shows the relationship between birds that we will hihglight in the bird of the month
+    * We were able to insert this picture by embedding an image file
+    * Phylogeny ([link](http://127.0.0.1:5002/Phylogenetic/))
 * Databases:
    * In order to run the database, run our [website](Tweeter.gq). Then hover the cursor over Joke API and right below the drop down menu is Database. Once a user inputs data into the table a new user will appear. Here is the [link to the frontend code](https://github.com/aditiakella/Period2Gaels/blob/main/templates/index.html)
    * Scroll down to Crud Create
