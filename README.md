@@ -20,6 +20,7 @@
 * The "I" abilities highlight all of the things that we feel we have learned throughout the course of working on this project
 * After you see the Jinja outline, you will see our group journal, which has also been embedded to demonstrate our completion of the college board requirments
 * At the end, we used an HTML form to create a "feedback" page where you can say which aspects of the college board requirments you (the evaluator) think were not efficiently used
+* Easter Egg ([link](Tweeter.gq/easteregg))
 * Databases Front End (Grace):
 * Database Back End (Aditi):
 * Phylogeny Page (Sophie):
