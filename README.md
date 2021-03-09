@@ -2,8 +2,8 @@
 
 ## Links
 * [Study Journal](https://docs.google.com/document/d/1NFgEh_1AZGfm3fGWLUgGT7Xm9tNoPROnnH0_pO72MzM/edit?usp=sharing)
-* [One Minute Commercial]()
-* [Scrum Board]()
+* [One Minute Commercial](https://youtu.be/UtrLlKdQrYk)
+* [Scrum Board](https://github.com/aditiakella/Per2Gaels/projects/1)
 * [Project Plan](https://docs.google.com/document/d/1wBFv8xEiTdBYL12SreRxs_ixNCXaxFt93r1jJ1S14m4/edit?usp=sharing)
 * [Website on Raspberry Pi Web Server](http://tweeter.gq/)
 
