@@ -23,12 +23,12 @@
 * Clicking on those links takes you to different parts of our website
 * If you click on our logo, which is in the middle of the navbar, you will be redirected to our [easter egg]()
 * Code Review:
-    * On home.html, [here]() is the code that sets up the style for the navbar
-    * [Here]() is the code that links the homepage of our website.
-    * [Here]() is the code that creates the dropdown menu for the About Us pages
-    * [Here]() is the code that links the Twitter API
-    * [Here]() is the code that turns our logo into the easter egg
-    * [Here]() is the code the links the contact page, phylogeny page, and our study journal
+    * On home.html, [here](https://github.com/aditiakella/Per2Gaels/blob/07fd2649f40002722840140ed11eb69c20ca136d/templates/home.html#L8-L111) is the code that sets up the style for the navbar
+    * [Here](https://github.com/aditiakella/Per2Gaels/blob/07fd2649f40002722840140ed11eb69c20ca136d/templates/home.html#L95wd) is the code that links the homepage of our website.
+    * [Here](https://github.com/aditiakella/Per2Gaels/blob/07fd2649f40002722840140ed11eb69c20ca136d/templates/home.html#L96-L103) is the code that creates the dropdown menu for the About Us pages
+    * [Here](https://github.com/aditiakella/Per2Gaels/blob/07fd2649f40002722840140ed11eb69c20ca136d/templates/home.html#L105) is the code that links the Twitter API
+    * [Here](https://github.com/aditiakella/Per2Gaels/blob/07fd2649f40002722840140ed11eb69c20ca136d/templates/home.html#L91) is the code that turns our logo into the easter egg
+    * [Here](https://github.com/aditiakella/Per2Gaels/blob/07fd2649f40002722840140ed11eb69c20ca136d/templates/home.html#L106-L108) is the code the links the contact page, phylogeny page, and our study journal
 * [Scrum Board Card]()
 #### About Pages (Aditi):
 * On our [homepage](http://tweeter.gq/), hover over the ["About" tab](http://tweeter.gq/aboutus/) in the navbar. Then click on each person's name to access their profile. For quick access, here is [Aditi's Profile](http://tweeter.gq/aboutus/aditi/), [Sophie's Profile](http://tweeter.gq/aboutus/sophie/), [Grace's Profile](http://tweeter.gq/aboutus/grace/), and [Luke's Profile](http://tweeter.gq/aboutus/luke/). 
@@ -51,15 +51,12 @@
         * The html code used in order to display the data the API pulls. It takes the variables from the app route and prints them onto the website.
 * [Scrum Board Card](https://github.com/aditiakella/Per2Gaels/projects/1#card-56443744)
 #### Easter Egg (Sophie):
-* In order to run this file, go to the [homepage](http://tweeter.gq/), click the logo in the middle of the screen, and it will redirect you to the [Easter Egg](http://tweeter.gq/easteregg)
-* Code Review: 
-    * First, on easteregg.html, there is a section that sets up the [style of the easter egg](https://github.com/aditiakella/Per2Gaels/blob/414fd3fdfd85b082770f5f78b5b22d70885b6648/templates/easteregg.html#L7-L85).
-    * Then, there is code for our [navbar](https://github.com/aditiakella/Per2Gaels/blob/414fd3fdfd85b082770f5f78b5b22d70885b6648/templates/easteregg.html#L88-L110)
-    * Next, we [embedded the college board requirements](https://github.com/aditiakella/Per2Gaels/blob/ef16b1403cd5117da145032694bde968daec338d/templates/easteregg.html#L19-L21).
-    * Then we wrote the code for the ["Who am I in Computer Science?"](https://github.com/aditiakella/Per2Gaels/blob/ef16b1403cd5117da145032694bde968daec338d/templates/easteregg.html#L113-L147), which highlights all of the things that we have learned throughout the course of working on this project.
-    * We have also embedded our [group journal](https://github.com/aditiakella/Per2Gaels/blob/ef16b1403cd5117da145032694bde968daec338d/templates/easteregg.html#L149-L150), which has also been embedded to demonstrate our completion of the college board requirements
-    * At the end, we used an HTML form to create a "feedback" [page](https://github.com/aditiakella/Per2Gaels/blob/ef16b1403cd5117da145032694bde968daec338d/templates/easteregg.html#L197-L218) where you can say which aspects of the college board requirements you (the evaluator) think were not efficiently used
-* [Scrum Board Card](https://github.com/aditiakella/Per2Gaels/projects/1#card-56444072)
+* In order to run this file, go to the homepage, click the logo in the middle of the screen, and it will redirect you to the Easter Egg
+* Once you have accessed the [easter egg](https://github.com/aditiakella/Per2Gaels/blob/master/templates/easteregg.html), you will see that we have embedded the college board requirments for the project
+* After the initial [embedding](https://github.com/aditiakella/Per2Gaels/blob/ef16b1403cd5117da145032694bde968daec338d/templates/easteregg.html#L19-L21) of the College Board requirments, we used a Jinja template to organize everyones "I" abilities
+* The "I" abilities [highlight](https://github.com/aditiakella/Per2Gaels/blob/ef16b1403cd5117da145032694bde968daec338d/templates/easteregg.html#L113-L147) all of the things that we feel we have learned throughout the course of working on this project
+* After you see the Jinja outline, you will see our group [journal](https://github.com/aditiakella/Per2Gaels/blob/ef16b1403cd5117da145032694bde968daec338d/templates/easteregg.html#L149-L150), which has also been embedded to demonstrate our completion of the college board requirments
+* At the end, we used an HTML form to create a "feedback" [page](https://github.com/aditiakella/Per2Gaels/blob/ef16b1403cd5117da145032694bde968daec338d/templates/easteregg.html#L197-L218) where you can say which aspects of the college board requirments you (the evaluator) think were not efficiently used
 #### Databases Front End (Grace):
 * On the navigation bar if you click on contact it will take you to an contact form
 * The front end is what the user sees
