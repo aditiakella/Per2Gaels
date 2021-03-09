@@ -65,7 +65,7 @@ Our website, [tweeter.gq](http://tweeter.gq/), is a website that features inform
 * On the navigation bar if you click on contact it will take you to an [contact page](http://tweeter.gq/database/)
 * Code Review:
     * First, our contact page was created using [index.html](https://github.com/aditiakella/Per2Gaels/blob/master/templates/index.html), which is based on a Jinja template using [base.html](https://github.com/aditiakella/Per2Gaels/blob/master/templates/base.html). Base.html includes the style for index.htmal as well as a navbar. 
-    * On the contact page, there is a contact form on which the user can input there [name, passowrd, email, and phone number](https://github.com/aditiakella/Per2Gaels/blob/2ed96fb04bf3a90e09a31c72c25183952f99d145/templates/index.html#L119-L137)
+    * On the contact page, there is a contact form on which the user can input there [name, password, email, and phone number](https://github.com/aditiakella/Per2Gaels/blob/2ed96fb04bf3a90e09a31c72c25183952f99d145/templates/index.html#L119-L137)
     * Using the contact form, the user can add their information to a [contact table](https://github.com/aditiakella/Per2Gaels/blob/2ed96fb04bf3a90e09a31c72c25183952f99d145/templates/index.html#L141-L188).
     * Users can [delete](https://github.com/aditiakella/Per2Gaels/blob/2ed96fb04bf3a90e09a31c72c25183952f99d145/templates/index.html#L194-L215) there information if they don't want it there anymore
 * [Scrum Board Card](https://github.com/aditiakella/Per2Gaels/projects/1#card-56444109)
