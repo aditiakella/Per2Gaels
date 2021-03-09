@@ -77,7 +77,7 @@
 #### Phylogeny Page (Sophie):
 * In order to access the [phylogeny page](https://github.com/aditiakella/Per2Gaels/blob/master/templates/Phylogenetic.html), go to the nav bar in home and click the button on the far right side that says phylogeny
 * This is a phylogenetic tree that shows the relationship between birds that we will hihglight in the bird of the month
-* We were able to insert this picture by embedding an image file
+* We were able to insert this picture by [embedding](https://github.com/aditiakella/Per2Gaels/blob/07fd2649f40002722840140ed11eb69c20ca136d/templates/Phylogenetic.html#L113-L122) an image file
 * Phylogeny ([link](http://127.0.0.1:5002/Phylogenetic/))
 
 
