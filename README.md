@@ -40,7 +40,7 @@
 * [Scrum Board Card](https://github.com/aditiakella/Per2Gaels/projects/1#card-56443744)
 #### Easter Egg (Sophie):
 * In order to run this file, go to the homepage, click the logo in the middle of the screen, and it will redirect you to the Easter Egg
-* Once you have accessed the Easter Egg, you will see that we have embedded the college board requirments for the project
+* Once you have accessed the [easter egg] (https://github.com/aditiakella/Per2Gaels/blob/master/templates/easteregg.html), you will see that we have embedded the college board requirments for the project
 * After the initial embedding of the College Board requirments, we used a Jinja template to organize everyones "I" abilities
 * The "I" abilities highlight all of the things that we feel we have learned throughout the course of working on this project
 * After you see the Jinja outline, you will see our group journal, which has also been embedded to demonstrate our completion of the college board requirments
