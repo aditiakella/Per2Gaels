@@ -19,11 +19,11 @@
     * Lastly, there is the [code for the bird of the month section](https://github.com/aditiakella/Per2Gaels/blob/6d67a8bf972a9591f42cd2cc511073da9c8e96f5/templates/home.html#L137-L143), which includes a title, picture, and some text. 
 * [Scrum Board Card](https://github.com/aditiakella/Per2Gaels/projects/1#card-56444175)
 #### Navbar (Grace): 
-* On each page of our website there is a navigation bar
+* On each page of our website there is a [navigation bar](http://tweeter.gq/)
 * Clicking on those links takes you to different parts of our website
-* There are drop downs included on the About Us Section
+* There are drop downs included on the [About Us Section](https://github.com/aditiakella/Per2Gaels/blob/07fd2649f40002722840140ed11eb69c20ca136d/templates/home.html#L95-L103_
 * There is a each href link on each part of the navigation bar
-* On our logo if you click on it, that will take you to our logo
+* On our logo if you click on it, that will take you to our [easter egg]
 #### About Pages (Aditi):
 * On our [homepage](http://tweeter.gq/), hover over the ["About" tab](http://tweeter.gq/aboutus/) in the navbar. Then click on each person's name to access their profile. For quick access, here is [Aditi's Profile](http://tweeter.gq/aboutus/aditi/), [Sophie's Profile](http://tweeter.gq/aboutus/sophie/), [Grace's Profile](http://tweeter.gq/aboutus/grace/), and [Luke's Profile](http://tweeter.gq/aboutus/luke/). 
 * Code Review:
@@ -77,7 +77,7 @@
 #### Phylogeny Page (Sophie):
 * In order to access the [phylogeny page](https://github.com/aditiakella/Per2Gaels/blob/master/templates/Phylogenetic.html), go to the nav bar in home and click the button on the far right side that says phylogeny
 * This is a phylogenetic tree that shows the relationship between birds that we will hihglight in the bird of the month
-* We were able to insert this picture by [embedding](https://github.com/aditiakella/Per2Gaels/blob/07fd2649f40002722840140ed11eb69c20ca136d/templates/Phylogenetic.html#L113-L122) an image file
+* We were able to insert this picture by embedding an image file
 * Phylogeny ([link](http://127.0.0.1:5002/Phylogenetic/))
 
 
