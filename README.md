@@ -21,9 +21,15 @@
 #### Navbar (Grace): 
 * On each page of our website there is a [navigation bar](http://tweeter.gq/)
 * Clicking on those links takes you to different parts of our website
-* There are drop downs included on the [About Us Section](https://github.com/aditiakella/Per2Gaels/blob/07fd2649f40002722840140ed11eb69c20ca136d/templates/home.html#L95-L103_
-* There is a each href link on each part of the navigation bar
-* On our logo if you click on it, that will take you to our [easter egg]
+* If you click on our logo, which is in the middle of the navbar, you will be redirected to our [easter egg]()
+* Code Review:
+    * On home.html, [here]() is the code that sets up the style for the navbar
+    * [Here]() is the code that links the homepage of our website.
+    * [Here]() is the code that creates the dropdown menu for the About Us pages
+    * [Here]() is the code that links the Twitter API
+    * [Here]() is the code that turns our logo into the easter egg
+    * [Here]() is the code the links the contact page, phylogeny page, and our study journal
+* [Scrum Board Card]()
 #### About Pages (Aditi):
 * On our [homepage](http://tweeter.gq/), hover over the ["About" tab](http://tweeter.gq/aboutus/) in the navbar. Then click on each person's name to access their profile. For quick access, here is [Aditi's Profile](http://tweeter.gq/aboutus/aditi/), [Sophie's Profile](http://tweeter.gq/aboutus/sophie/), [Grace's Profile](http://tweeter.gq/aboutus/grace/), and [Luke's Profile](http://tweeter.gq/aboutus/luke/). 
 * Code Review:
