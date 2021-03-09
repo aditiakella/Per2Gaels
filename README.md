@@ -21,7 +21,7 @@
 #### Navbar (Grace): 
 * On each page of our website there is a [navigation bar](http://tweeter.gq/)
 * Clicking on those links takes you to different parts of our website
-* If you click on our logo, which is in the middle of the navbar, you will be redirected to our [easter egg]()
+* If you click on our logo, which is in the middle of the navbar, you will be redirected to our [easter egg](http://tweeter.gq/easteregg)
 * Code Review:
     * On home.html, [here](https://github.com/aditiakella/Per2Gaels/blob/07fd2649f40002722840140ed11eb69c20ca136d/templates/home.html#L8-L111) is the code that sets up the style for the navbar
     * [Here](https://github.com/aditiakella/Per2Gaels/blob/07fd2649f40002722840140ed11eb69c20ca136d/templates/home.html#L95wd) is the code that links the homepage of our website.
