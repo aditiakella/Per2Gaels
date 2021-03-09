@@ -51,6 +51,21 @@
 * Users can delete there information if they don't want it there anymore \
 * Here is a link to the front end of the code [link to the frontend code](https://github.com/aditiakella/Period2Gaels/blob/main/templates/index.html)
 #### Database Back End (Aditi):
+* In order to access our database, go to our [homepage](http://tweeter.gq/) and click on Contact in the NavBar. This will take you to the [contact database page](http://tweeter.gq/database/). 
+* Code Review: 
+    * First, the User class, Email class and Phone Number class are defined in [init.py](https://github.com/aditiakella/Per2Gaels/blob/a7e40d9e3dd598599e78ae0f126b3fb550ccfa75/models/__init__.py#L13-L28). 
+    * The [User ID is declared as the Primary Key](https://github.com/aditiakella/Per2Gaels/blob/a7e40d9e3dd598599e78ae0f126b3fb550ccfa75/models/__init__.py#L14), which means that each person in the database will have a unique user id. 
+    * Then, in [create.py](https://github.com/aditiakella/Per2Gaels/blob/a7e40d9e3dd598599e78ae0f126b3fb550ccfa75/models/crud.py#L7-L22), the model_create function is defined, which allows users to be committed into the database. 
+    * Also in [create.py](https://github.com/aditiakella/Per2Gaels/blob/a7e40d9e3dd598599e78ae0f126b3fb550ccfa75/models/crud.py#L32-L42), the model_delete function is defined, which allows users to be deleted from the database. 
+    * Then, [create.py](https://github.com/aditiakella/Per2Gaels/blob/a7e40d9e3dd598599e78ae0f126b3fb550ccfa75/models/crud.py#L45-L84) has a few functions that allow the names, passwords, emails, and phone numbers of users who are already in the database to be called. 
+    * Next, in [views.py](https://github.com/aditiakella/Per2Gaels/blob/a7e40d9e3dd598599e78ae0f126b3fb550ccfa75/views.py#L5-L6), all of the functions from create.py are imported. 
+    * In the [create procedure on views.py](https://github.com/aditiakella/Per2Gaels/blob/a7e40d9e3dd598599e78ae0f126b3fb550ccfa75/views.py#L20-L23), first, the contact form is used to gather the name, password, email and phone number of the user. 
+    * Then, the [model_create procedure is called](https://github.com/aditiakella/Per2Gaels/blob/a7e40d9e3dd598599e78ae0f126b3fb550ccfa75/views.py#L25-L26) in order to commit the user's imformation to the table. The user's information is then shown in the database table. 
+    * In the delete funciton on views.py, a similar method is used. 
+    * First, the form is used to identify which user should be deleted from the database
+    * Then the model_delete procedure is called and the user's information is no longer displayed in the table. 
+    * The [functions emails and phones on views.py](https://github.com/aditiakella/Per2Gaels/blob/a7e40d9e3dd598599e78ae0f126b3fb550ccfa75/views.py#L40-L52) are used to display the users' emails and phone numbers. First the model_query_emails and model_query_phones procedures are used to call all of the emails and and phone numbers in the database. Then the emails and phone numbers are displyed on the table in index.html.
+* [Scrum Board Card](https://github.com/aditiakella/Per2Gaels/projects/1#card-56443929)  
 #### Phylogeny Page (Sophie):
 * In order to access the phylogeny page, go to the nav bar in home and click the button on the far right side that says phylogeny
 * This is a phylogenetic tree that shows the relationship between birds that we will hihglight in the bird of the month
