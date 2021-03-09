@@ -61,13 +61,13 @@
     * At the end, we used an HTML form to create a "feedback" [page](https://github.com/aditiakella/Per2Gaels/blob/ef16b1403cd5117da145032694bde968daec338d/templates/easteregg.html#L197-L218) where you can say which aspects of the college board requirements you (the evaluator) think were not efficiently used
 * [Scrum Board Card](https://github.com/aditiakella/Per2Gaels/projects/1#card-56444072)
 #### Databases Front End (Grace):
-* On the navigation bar if you click on contact it will take you to an [contact form](http://tweeter.gq/database/)
+* On the navigation bar if you click on contact it will take you to an [contact page](http://tweeter.gq/database/)
 * Code Review:
-   * The front end is what the user sees
-   * On the contact form, the user can input there [name, passowrd, email, and phone number](https://github.com/aditiakella/Per2Gaels/blob/2ed96fb04bf3a90e09a31c72c25183952f99d145/templates/index.html#L152-L159)
-   * They [add](https://github.com/aditiakella/Per2Gaels/blob/2ed96fb04bf3a90e09a31c72c25183952f99d145/templates/index.html#L195) there information to a contact table and there information shows
-   * Users can [delete](https://github.com/aditiakella/Per2Gaels/blob/2ed96fb04bf3a90e09a31c72c25183952f99d145/templates/index.html#L205-L215) there information if they don't want it there anymore
-   * Here is a link to the front end of the code [link to the frontend code](https://github.com/aditiakella/Period2Gaels/blob/main/templates/index.html)
+    * First, our contact page was created using [index.html](https://github.com/aditiakella/Per2Gaels/blob/master/templates/index.html), which is based on a Jinja template using [base.html](https://github.com/aditiakella/Per2Gaels/blob/master/templates/base.html). Base.html includes the style for index.htmal as well as a navbar. 
+    * On the contact page, there is a contact form on which the user can input there [name, passowrd, email, and phone number](https://github.com/aditiakella/Per2Gaels/blob/2ed96fb04bf3a90e09a31c72c25183952f99d145/templates/index.html#L119-L137)
+    * Using the contact form, the user can add their information to a [contact table](https://github.com/aditiakella/Per2Gaels/blob/2ed96fb04bf3a90e09a31c72c25183952f99d145/templates/index.html#L141-L188).
+    * Users can [delete](https://github.com/aditiakella/Per2Gaels/blob/2ed96fb04bf3a90e09a31c72c25183952f99d145/templates/index.html#L194-L215) there information if they don't want it there anymore
+* [Scrum Board Card](https://github.com/aditiakella/Per2Gaels/projects/1#card-56444109)
 #### Database Back End (Aditi):
 * In order to access our database, go to our [homepage](http://tweeter.gq/) and click on Contact in the NavBar. This will take you to the [contact database page](http://tweeter.gq/database/). 
 * Code Review: 
