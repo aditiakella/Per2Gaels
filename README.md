@@ -69,7 +69,7 @@
     * The [functions emails and phones on views.py](https://github.com/aditiakella/Per2Gaels/blob/a7e40d9e3dd598599e78ae0f126b3fb550ccfa75/views.py#L40-L52) are used to display the users' emails and phone numbers. First the model_query_emails and model_query_phones procedures are used to call all of the emails and and phone numbers in the database. Then the emails and phone numbers are displyed on the table in index.html.
 * [Scrum Board Card](https://github.com/aditiakella/Per2Gaels/projects/1#card-56443929)  
 #### Phylogeny Page (Sophie):
-* In order to access the phylogeny page, go to the nav bar in home and click the button on the far right side that says phylogeny
+* In order to access the [phylogeny page](https://github.com/aditiakella/Per2Gaels/blob/master/templates/Phylogenetic.html), go to the nav bar in home and click the button on the far right side that says phylogeny
 * This is a phylogenetic tree that shows the relationship between birds that we will hihglight in the bird of the month
 * We were able to insert this picture by embedding an image file
 * Phylogeny ([link](http://127.0.0.1:5002/Phylogenetic/))
