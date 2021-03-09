@@ -25,15 +25,6 @@ def graces_info():
     return info
 
 def lukes_info():
-    greeting = "Hi!"
-    name = "Luke Manning"
-    grade = "Hi my name is Luke Manning and I am a senior at Del Norte high school. This is my first time in a computer science class and I took it as an elective. Throughout this class I have learned different types of code such as html and jinja."
-    about = "About: Fill in"
-    contributions = "Contributions: Fill in"
-    info = {"greeting": greeting, "name": name, "grade": grade, "about": about, "contributions": contributions}
-    return info
-
-def lukes_info():
     greeting= "Hello!"
     name = "Luke Manning"
     grade = "12th grade"
