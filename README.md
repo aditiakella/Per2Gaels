@@ -2,12 +2,13 @@
 
 ## Links
 * [Study Journal](https://docs.google.com/document/d/1NFgEh_1AZGfm3fGWLUgGT7Xm9tNoPROnnH0_pO72MzM/edit?usp=sharing)
-* [Collaboration video](https://youtu.be/rLajlcMSnqM)
-* [Scrum Board](https://github.com/aditiakella/Period2Gaels/projects/1)
+* [One Minute Commercial]()
+* [Scrum Board]()
 * [Project Plan](https://docs.google.com/document/d/1wBFv8xEiTdBYL12SreRxs_ixNCXaxFt93r1jJ1S14m4/edit?usp=sharing)
 * [Website on Raspberry Pi Web Server](http://tweeter.gq/)
 
 ## Project Overview
+Our website, [tweeter.gq](http://tweeter.gq/), is a website that features information about birds and their evolution. Our project showcases our team's learning throughout the year. Our project utilizes a Python Back End and an HTML Front End, as well as Jinja templates, SQLAlchemy databases, and CSS. 
 ## Project Components
 #### Homepage (Grace): 
 * Go to our [homepage](http://tweeter.gq/) by clicking on the link
