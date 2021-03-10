@@ -1,5 +1,11 @@
 # Period 2: Gaels
 
+## Scrum Team Members
+* Aditi Akella
+* Sophie Bulkin
+* Grace Le
+* Luke Manning (joined week 6)
+
 ## Links
 * [Study Journal](https://docs.google.com/document/d/1NFgEh_1AZGfm3fGWLUgGT7Xm9tNoPROnnH0_pO72MzM/edit?usp=sharing)
 * [One Minute Commercial](https://youtu.be/UtrLlKdQrYk)
@@ -92,9 +98,3 @@ Our website, [tweeter.gq](http://tweeter.gq/), is a website that features inform
     * Then, there is code for our [navbar](https://github.com/aditiakella/Per2Gaels/blob/2ed96fb04bf3a90e09a31c72c25183952f99d145/templates/Phylogenetic.html#L88-L110)
     * Next there is code for a [embedded picture of a phylogenetic tree](https://github.com/aditiakella/Per2Gaels/blob/2ed96fb04bf3a90e09a31c72c25183952f99d145/templates/Phylogenetic.html#L120) that shows the relationship between orders of birds
 * [Scrum Board Card](https://github.com/aditiakella/Per2Gaels/projects/1#card-56537642)
-
-## Scrum Team Members
-* Aditi Akella
-* Sophie Bulkin
-* Grace Le
-* Luke Manning (joined week 6)
