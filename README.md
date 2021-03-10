@@ -1,10 +1,10 @@
 # Period 2: Gaels
 
 ## Scrum Team Members
-* Aditi Akella
-* Sophie Bulkin
-* Grace Le
-* Luke Manning (joined week 6)
+* [Aditi Akella](https://github.com/aditiakella)
+* [Sophie Bulkin](https://github.com/sophiebulkin)
+* [Grace Le](https://github.com/gracele246)
+* [Luke Manning](https://github.com/lukemanning244) (joined week 6)
 
 ## Links
 * [Study Journal](https://docs.google.com/document/d/1NFgEh_1AZGfm3fGWLUgGT7Xm9tNoPROnnH0_pO72MzM/edit?usp=sharing)
