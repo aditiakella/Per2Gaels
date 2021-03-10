@@ -1,6 +1,6 @@
 # Period 2: Gaels
 
-## Scrum Team Members and Heat Maps
+## Scrum Team Members and GitHub Profile Links
 * [Aditi Akella](https://github.com/aditiakella)
 * [Sophie Bulkin](https://github.com/sophiebulkin)
 * [Grace Le](https://github.com/gracele246)
